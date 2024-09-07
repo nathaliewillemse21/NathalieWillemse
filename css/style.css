@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #6c757d;
   text-align: left;
-  background-color: #ffffff;
+  background-color: #F7EFE5;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2395,27 +2395,27 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #09aa90;
-  border-color: #089e86;
+  background-color: #C8A1E0;
+  border-color: #C8A1E0;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #09aa90;
-  border-color: #089e86;
+  background-color: #C8A1E0;
+  border-color: #C8A1E0;
   box-shadow: 0 0 0 0.2rem rgba(48, 213, 187, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #0BCEAF;
-  border-color: #0BCEAF;
+  background-color: #C8A1E0;
+  border-color: #C8A1E0;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #089e86;
+  background-color: #C8A1E0;
   border-color: #08917c;
 }
 
@@ -4382,7 +4382,7 @@ input[type="button"].btn-block {
   display: none;
 }
 
-.navbar-light .navbar-brand {
+/* .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
 }
 
@@ -4476,7 +4476,20 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
+} */
+
+/* Light Navbar */
+.navbar-light .navbar-nav .nav-link:hover, 
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #C8A1E0; /* Set hover color to #C8A1E0 */
 }
+
+/* Dark Navbar */
+.navbar-dark .navbar-nav .nav-link:hover, 
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #C8A1E0; /* Set hover color to #C8A1E0 */
+}
+
 
 .card {
   position: relative;
@@ -4759,14 +4772,14 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #0BCEAF;
+  color: #C8A1E0;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #078571;
+  color: #C8A1E0;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -4792,8 +4805,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #0BCEAF;
-  border-color: #0BCEAF;
+  background-color: #C8A1E0;
+  border-color: #C8A1E0;
 }
 
 .page-item.disabled .page-link {
@@ -4876,12 +4889,12 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #0BCEAF;
+  background-color: #C8A1E0;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #089e86;
+  background-color: #C8A1E0;
 }
 
 a.badge-primary:focus, a.badge-primary.focus {
@@ -6373,27 +6386,27 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #0BCEAF !important;
+  background-color: #C8A1E0 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #089e86 !important;
+  background-color: #C8A1E0 !important;
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #C8A1E0 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #545b62 !important;
+  background-color: #C8A1E0 !important;
 }
 
 .bg-success {
-  background-color: #28a745 !important;
+  background-color: #C8A1E0 !important;
 }
 
 a.bg-success:hover, a.bg-success:focus,
@@ -10134,7 +10147,7 @@ h6,
   padding: 10px 20px;
   font-size: 14px;
   border-radius: 5px;
-  color: #fff;
+  color: #C8A1E0;
   text-decoration: none;
   text-align: center;
   margin: 0 5px;
@@ -10142,17 +10155,17 @@ h6,
 }
 
 .btn-demo {
-  background-color: #E2BFD9; /* Light pink color for demo */
+  background-color: #C8A1E0; /* Light pink color for demo */
 }
 
 .btn-github {
-  background-color: #E2BFD9; /* Light pink color for GitHub */
+  background-color: #C8A1E0; /* Light pink color for GitHub */
 }
 
 .btn-demo:hover,
 .btn-github:hover {
-  background-color: #d6a8b8; /* Slightly darker pink on hover */
-  color: #fff; /* Maintain white text color */
+  background-color: #C8A1E0; /* Slightly darker pink on hover */
+  color: #C8A1E0; /* Maintain white text color */
 }
 
 /* Ensure consistent button spacing */
@@ -10160,7 +10173,7 @@ h6,
   padding: 10px 20px;
   font-size: 14px;
   border-radius: 5px;
-  color: #E2BFD9; /* Light pink color for text */
+  color: #C8A1E0; /* Light pink color for text */
   text-decoration: none;
   text-align: center;
   margin: 0 10px; /* Adds space between buttons */
@@ -10169,14 +10182,14 @@ h6,
 
 /* Light pink color for outline buttons */
 .btn-outline-primary {
-  border-color: #E2BFD9; /* Light pink color for border */
-  color: #E2BFD9; /* Light pink color for text */
+  border-color: #C8A1E0; /* Light pink color for border */
+  color: #C8A1E0; /* Light pink color for text */
 }
 
 /* Hover effect for outline buttons */
 .btn-outline-primary:hover {
-  background-color: #E2BFD9; /* Light pink color for background on hover */
-  color: #fff; /* White text color on hover */
+  background-color: #C8A1E0; /* Light pink color for background on hover */
+  color: #C8A1E0; /* White text color on hover */
 }
 
 /* Special margin for buttons on the left side of the container */
@@ -10196,6 +10209,45 @@ h6,
   gap: 10px; /* Space between buttons */
 }
 
+/*  */
+.why_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+
+/* Style for the boxx container */
+.boxx {
+  border: 2px solid #C8A1E0; /* Add a solid border with color #C8A1E0 */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  background-color: #F7EFE5; /* Optional: Add a background color */
+  text-align: center; /* Center text inside the detail-box */
+}
+
+/* Style for the image container */
+.img-boxx img {
+  width: 50px; /* Set image width */
+  height: 50px; /* Set image height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  margin-bottom: 10px; /* Space between image and text */
+}
+/* Ensure buttons are properly spaced */
+.btn {
+  margin: 5px; /* Space between buttons */
+}
+/* Custom style for outline buttons */
+.btn-outline-info {
+  border-color: #C8A1E0; /* Set the border color to #C8A1E0 */
+  color: #C8A1E0; /* Set the text color to #C8A1E0 */
+}
+
+.btn-outline-info:hover, 
+.btn-outline-info:focus {
+  background-color: #C8A1E0; /* Set the background color on hover and focus */
+  color: #fff; /* Change text color to white on hover and focus */
+  border-color: #C8A1E0; /* Keep the border color the same on hover and focus */
+}
 
 
 /* Ensure that no conflicting styles impact layout */
