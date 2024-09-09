@@ -9834,7 +9834,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #0BCEAF;
+  color: #C8A1E0;
 }
 
 @media (max-width: 991.98px) {
@@ -9913,40 +9913,9 @@ h6,
   }
 }
 
-#videoModal .modal-dialog {
-  position: relative;
-  max-width: 800px;
-  margin: 60px auto 0 auto;
-}
 
-#videoModal .modal-body {
-  position: relative;
-  padding: 0px;
-}
 
-#videoModal .close {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 0px;
-  top: -30px;
-  z-index: 999;
-  font-size: 30px;
-  font-weight: normal;
-  color: #ffffff;
-  background: #000000;
-  opacity: 1;
-}
 
-.progress {
-  border-radius: 10px;
-}
-
-.progress .progress-bar {
-  width: 0px;
-  border-radius: 10px;
-  transition: 2s;
-}
 
 .service-icon {
   width: 60px;
@@ -10215,6 +10184,36 @@ h6,
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
+        /* Media Query for 330px */
+        @media (max-width: 330px) {
+          .boxx {
+              margin: 0 auto; /* Center the box horizontally */
+              width: 100%; /* Ensure the box takes the full width */
+              box-sizing: border-box; /* Include padding and border in the element's total width and height */
+          }
+
+          .btn {
+              display: block; /* Make buttons stack vertically */
+              width: 100%; /* Ensure buttons take full width */
+              margin: 5px 0; /* Adjust margin for vertical spacing */
+          }
+
+          .img-boxx {
+              text-align: center; /* Center images on smaller screens */
+          }
+
+          .detail-box h5 {
+              font-size: 1.2rem; /* Adjust font size for readability */
+          }
+      }
+   /* General Styles */
+
+
+
+.detail-box {
+    text-align: center; /* Center text in the detail box */
+}
+
 
 
 /* Style for the boxx container */
@@ -10222,6 +10221,8 @@ h6,
   border: 2px solid #C8A1E0; /* Add a solid border with color #C8A1E0 */
   border-radius: 8px; /* Optional: Add rounded corners */
   background-color: #F7EFE5; /* Optional: Add a background color */
+  margin: 0 auto; /* Center the box horizontally */
+  max-width: 100%;
   text-align: center; /* Center text inside the detail-box */
 }
 
@@ -10249,9 +10250,41 @@ h6,
   border-color: #C8A1E0; /* Keep the border color the same on hover and focus */
 }
 
+.info_contact h4 {
+  color: white; /* Make the heading text white */
+}
 
+
+
+
+
+.contact_link_box a:hover {
+  color: lightgray; /* Optional: Change color on hover */
+}
+
+.contact_link_box {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Align items to the right */
+  gap: 1rem; /* Optional: Space between items */
+}
+
+.contact_link_box a {
+  display: flex; /* Use flexbox for the link to align items */
+  align-items: center; /* Center items vertically */
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Set text color to white */
+}
+
+.contact_link_box i {
+  margin-right: 0.5rem; /* Space between icon and text */
+}
 /* Ensure that no conflicting styles impact layout */
-
+.img-fluid {
+  width: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image doesn’t exceed container width */
+  max-height: 700px; /* Set maximum height */
+  height: auto; /* Maintain aspect ratio */
+}
 /* 
 .article-container{
   display: flex;
